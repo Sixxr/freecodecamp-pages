@@ -1,0 +1,145 @@
+@media (max-width: 1025px) {
+  .tech {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+#navbar {
+  position: fixed;
+  background: #CFCDC8;
+  height: 100%;
+  width: 300px;
+  top: 0px;
+  left: 0px;
+  border-style: solid;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  #navbar {
+    width: 75px;
+    position: relative;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 430px) {
+  #navbar {
+    width: 100px;
+    position: relative;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 1025px) {
+  #navbar {
+    width: 200px;
+    position: relative;
+  }
+}
+
+header {
+  text-align: center;
+  margin: 15px;
+  font-size: 2em;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  header {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 430px) {
+  header {
+    font-size: 1.25em;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 1025px) {
+  header {
+    font-size: 1.50em;
+  }
+}
+
+#navbar ul {
+  padding: 15px 0 10px 0;
+  height: 60%;
+  font-size: 2em;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+#navbar ul {
+    font-size: 0.25em;
+    padding: 0;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 430px) {
+  #navbar ul {
+    font-size: 0.75em;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 1025px) {
+  #navbar ul {
+    font-size: 1.25em;
+  }
+}
+
+#navbar li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  border-top: 1px solid;
+  padding: 10px 0 10px 0;
+  text-align: left;
+}
+
+#navbar a {
+  display: block;
+  color:#000000;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  #navbar a {
+    padding: 10px 10px;
+  }
+}
+
+#main-doc {
+  margin-left: 310px;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  #main-doc {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 430px) {
+  #main-doc {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 1025px) {
+  #main-doc {
+    margin-left: 0px;
+  }
+}
+
+#main-doc header {
+  text-align: left;
+}
+
+article {
+  font-size: 1.25em;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+}
+
+code {
+  background-color: #CFCDC8;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="/css/tech-css.css">
+<div class="tech">
+
+<nav id="navbar">
+  <header>Setting up a POS with Veezi</header>
+  <ul>
+    <li><a class="nav-link" href="#Intro">Intro</a>
+    <li><a class="nav-link" href="#Equipment_Needed">Equipment Needed</a>
+    <li><a class="nav-link" href="#Set_Up_Equipment">Set Up Equipment</a>
+    <li><a class="nav-link" href="#Downloading_Software">Downloading Software</a>
+    <li><a class="nav-link" href="#Set_Up_Software">Set Up Software</a>
+    <li><a class="nav-link" href="#Conclusion">Conclusion</a>
+  </ul>
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="Intro">
+    <header>Intro</header>
+    <article>
+      <p>This page will walk you through the basics of setting up a Point of Sale (POS) with Veezi, using cheaper products from Amazon. You can still buy a pre-assembled POS, which comes with benefits such as better form and better intergration, but you will be spending a little more by $200-$400.</p>
+      <p>To get started you will need the following:</p>
+      <ol>
+        <li>A theater business with a bank account</li>
+        <li>A Veezi account</li>
+        <li>A Vantiv account for credit card redemption</li>
+        <li>Ticket prices set up in Veezi</li>
+        <li>Concession Menu and Prices set up in Veezi (optional)</li>
+      </ol>
+    </article>
+  </section>
+
+  <section class="main-section" id="Equipment_Needed">
+    <header>Equipment Needed</header>
+    <article>
+      <p>The equipment you will need to assemble a POS station is:</p>
+        <ul>
+          <li>A laptop or desktop computer - You don't want to go cheap with this part as it will affect the performance of your POS system</li>
+          <li>A ticket printer - Epson TM-T20II is a great printer and the ticket paper is relatively cheap</li>
+          <li>Cash till - If you get one with an R11/R12 cable, you can hook it into the printer to allow the till to open when you complete a sale</li>
+          <li>A USB credit card reader - It is best to get a version that is plug and play, otherwise you will have to set up software which may cause issues in the future</li>
+          <li>A USB QR/barcode scanner (optional)</li>
+        </ul>
+    </article>
+  </section>
+
+  <section class="main-section" id="Set_Up_Equipment">
+    <header>Set up Equipment</header>
+    <article>
+      <p>This is the easy part, but is a little time consuming.</p>
+      <p>The first thing you want to do is set up the laptop or desktop you will be using for the POS. While setting up, it will ask for a Microsoft account. Use the one that you will use for the theater. Make sure you have downloaded all updates available before you download any software or attach any other items in the equipment list. This will just make things a little easier on you. You can also take this time to remove any software you do not wish to be on your POS. You can also rename the POS by going to Settings, Systems, About, and click on <code>Rename this PC</code>.Once you have completely updated and setup the POS, then you can move on to the next step.</p>
+      <p>Download the software for the ticket printer. The printer may have come with the software on a disk. If it did, pop the disk into the disk reader. If the printer did not come with the disk, or your POS doesn't have a disk reader, you can download the software from the printer's manufacturer's website. Once you have the software downloaded, run the set-up. Follow the instructions, which should mention when to plug in and turn on the printer. Make sure to run the test print at the end.</p>
+      <p>If you purchased a till with a Rll/R12 connection, then plug this into the bottom of you printer.</p>
+      <p>Plug in the USB credit card reader</p>
+      <p>If you purchased a USB/QR coder reader, then plug that in as well.</p>
+      <p>Congrats! You have set up the quipment needed for your POS system. Next up is the software.</p>
+    </article>
+  </section>
+
+  <section class="main-section" id="Downloading_Software">
+    <header>Downloading Software</header>
+    <article>
+      <p>Super simple. Using an internet browser, head to Veezi.com/login</p>
+      <p>Log in with your account's credentials</p>
+      <code>Username:<br>Password:</code>
+      <p>At the top toolbar click on <code>Workstations</code> and select <code>Download POS</code>. This page will have some info before downloading so make sure to read through this. Once you are done, download the software.</p>
+      <p>After the software is downloaded, press open and the file, and press run. Follow the instructions while the files set up.</p>
+    </article>
+  </section>
+
+  <section class="main-section" id="Set_Up_Software">
+    <header>Set up Software</header>
+    <article>
+      <p>Once everything is downloaded there should be a folder named Veezi on the desktop. Open it up and click on the program "Veezi POS Configuration". Login with your Veezi credentials. Select your theater, if you have more than one. Select if this will be primarily a ticket station or a concession station. The next few pages will make sure the hardware you hooked up earlier will work. First up is the printer, then the cash till, then the barcode scanner.</p>
+      <p>You will need some of your account info for the next parts. First enter your theater's info such as address, phone number, etc. Next page will be for credit card services. Enter your Vantiv info such as:<br>
+        <br>
+        <code>Retail Name:<br>
+              Retail Number:<br>
+              Account Number:<br>
+        </code>
+      <p>You can also set up how much an order needs to be for the customer to sign the receipt on this page.<p>
+      <p>If you are using Veezi as your gift card provider, then you can skip the next screen. If you are using Vantiv, then repeat the same steps as the credit card screen. The last screen is to confirm the basics of what you just set up. If everything looks good, hit confirm.</p>
+    </article>
+  </section>
+
+  <section class="main-section" id="Conclusion">
+    <header>Conclusion</header>
+    <article>
+      <p>Congrats! You have completed setting up your POS register with Veezi. Open the Veezi POS software and login with your POS credentials and you can start ringing up your customers!</p>
+
+    </article>
+  </section>
+</main>
+</div>
+</html>
