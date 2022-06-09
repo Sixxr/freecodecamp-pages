@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="/css/tribute-css.css">
+  <main id="main">
+    <h1 id="title">The Big Brain from Futurama</h1>
+      <p>I am the greetest! And now I am leaving Earth for no raisin!</p>
+      <figure id="img-div">
+      <img id="image" src="https://www.fudzilla.com/images/stories/2013/May/futurama_fry_brainspawn.jpg" alt="A big brain with a blue aura mentally scanning Fry from Futurama">
+      <figcaption id="img-caption">Scene from Futurama, where the Big Brain is mentally scanning Fry.</figcaption>
+      </figure>
+  <section id="tribute-info">
+      <p>The Big Brain was the mastermind of the Brain Spawn invasion of Earth. There may be several Big Brains, but only one was present at the invasion, and the Nibblonians implied that it was unique. It was instrumental in the attempted invasion and eradication of Earth and resided in New New York's Public Library during it, where it was fielded by Fry and Leela.
+      <br>
+      <br>
+      The Big Brain has the ability to create fictional alternate realities (as found in books) and seal its enemies in it. Fry and Leela chased the brain through several literary classics like Moby Dick, Tom Sawyer and Pride and Prejudice. While it was distracted, Fry made use of this ability and wrote a short story of its own, thus shaping a fictional reality himself in which the Big Brain became trapped and did whatever he wrote. It then left Earth, and the Nibblonians seized the opportunity to destroy the invading Brain Spawn by devouring them. A Big Brain was present when the Brain Spawn created the Infosphere, though it may have been another Big Brain.
+      <br>
+      <br>
+  Like all other Brain Spawn, the Big Brain can stupefy all animals with the exception of Fry as he lacks Delta Brain Wave. It also has the ability to float.
+      </p>
+      <br>
+    <h5> Info taken from Big Brain's <a id="tribute-link" href="https://theinfosphere.org/Big_Brain" alt="Link to Big Brain Wikipedia" target="_blank">Wiki</a> page. </h5>
+  </main>
+
+</html>
