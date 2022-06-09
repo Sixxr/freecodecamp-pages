@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="/css/product-css.css">
+<div>
+
+<header id="header" class="head">
+  <img class="logo" src="https://purepng.com/public/uploads/large/purepng.com-futuramafuturamaanimationsciencefictioncartoon-1701528604024q9sd1.png" id="header-img" alt="Futurama Logo">
+
+  <h1>Big Brain on DVD</h1>
+
+  <nav id="nav-bar">
+    <ul class="links">
+      <li><a class="nav-link" href="#episodes">Episodes</a></li>
+      <li><a class="nav-link" href="#clip">Clip</a></li>
+      <li><a class="nav-link" href="#dvds">DVDs</a></li>
+    </ul>
+  </nav>
+</header>
+
+</div>
+
+<div class="page">
+
+<section class="email-form">
+
+  <h2>Want more info on the Big Brain?</h2>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input class="email" type="email" name="email" id="email" placeholder="Enter Your Email Here!" required>
+    <br>
+    <br>
+    <input type="submit" id="submit" value="Send to the Infosphere!" class="submit">
+  </form>
+</section>
+
+<section id="episodes" class="episodes-over">
+  <h3>Episodes featuring Big Brain</h3>
+      <h4 class="episode-list">The Day the Earth Stood Stupid -</h4>
+      <p>When flying brains invade, Fry is the only one who can save the Earth from destruction.</p>
+      <br>
+      <h4 class="episode-list">The Why of Fry -</h4>
+      <p>Fry learns that his accidental freezing 1,004 years earlier wasn't an accident and he is given a choice that could prevent its happening, but at a cost.</p>
+</section>
+
+<section id="clip" class="ad">
+  <h3>How About an Ad?</h3>
+  <iframe class="clip" id="video" width="560" height="315" src="https://www.youtube.com/embed/dfaVJS-zO2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<section id="dvds">
+  <h4>Buy the DVD!</h4>
+  <div class="purchase">
+    <p class="advd">You could watch Big Brain anytime, if you purchase the DVD!</p>
+    <br>
+    <p class="advd">Click the link below to head to Amazon</p>
+    <br>
+    <a class="amazon" href="https://www.amazon.com/Futurama-Complete-Collection-Seasons-1-8/dp/B0753824B8/ref=sr_1_16?keywords=futurama&qid=1636573452&sr=8-16" target="_blank">Buy it!</a>
+  </div>
+</section>
+</html>
