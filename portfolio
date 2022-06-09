@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="/css/portfolio-css.css">
+<div class="portfolio">
+
+<head>
+  <title>James's Portfolio Page</title>
+</head>
+
+<header class="header">
+  <h1 class="logo">It's me, James!</h1>
+
+  <nav id="navbar" class="nav">
+    <ul class="links">
+      <li><a href="#welcome-section">Welcome</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<body>
+
+  <section id="welcome-section" class="welcome-section">
+
+    <h1 class="james">Hi, my name is James</h1>
+    <p class="teach">and I am teaching myself HTML and CSS!</p>
+    <div class="cover">
+      <p>A little about myself:</p>
+      <p>I have worked since I was 16 years old in the customer service industry, mainly movie theaters. After Covid hit, that industry, that I loved and felt like I had done most of what I could do in, pretty much went downhill. I decided it was time for a change for my career. I left the theater industry behind and took a job as a janitor while I decided what I would want to accomplish next. A little after a year, and some encouragement from a friend in the field, I decided to try front-end web development. My friend sent me some resources for me to learn and I found out that I enjoy it.</p>
+      <p>Things that I enjoy about coding:</p>
+        <ul>
+          <li>Creating something from nothing</li>
+          <li>Figuring out solutions to get the job done</li>
+          <li>Teaching myself new skills</li>
+          <li>Seems like there is always something new to learn</li>
+        </ul>
+      <p>I have only been learning coding for a little while but I have been enjoying the rush I get from finishing a project. Especially  if I can figure out how to fix an issue. I am a quick learner and a driven individual. I loving getting a project to work on and will stay focused until it is done. I have been a manager in most places I have worked, so I understand the need to work in a team. During my time at the Paris Theater, I lead many projects including setting up a Point of Sale system, sitting up online tickets sales, and all of the nightly and monthly paperwork that the company still uses to this day.</p>
+      <p>I am looking forward to starting my new career and hope to hear back from you soon!</p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+
+    <h2>Here is some examples of the projects I worked on to get my certification through <a href="https://www.freecodecamp.org/" target="_blank" class="free">freecodecamp.org</a></h2>
+
+    <div class="project-container">
+    <div class="grid">
+      <a href="https://codepen.io/Sixer-Rose/pen/dyzjzRo" target="_blank"><p class="project-tile">Tech Sheet Example</p></a>
+      <a href="https://codepen.io/Sixer-Rose/pen/jOLYvdM" target="_blank"><p class="project-tile">Product Landing Page Example</p></a>
+      <a href="https://codepen.io/Sixer-Rose/pen/ExvweyE" target="_blank"><p class="project-tile">Survey Example</p></a>
+      <a href="https://codepen.io/Sixer-Rose/pen/RwZLBdE" target="_blank"><p class="project-tile">Tribute Page Example</p></a>
+    </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-me">
+
+    <h3>Like my work so far? Let's work together!</h3>
+
+    <div class="contact-container">
+    <div class="contact-grid">
+      <a href="https://github.com/Sixxr" target="_blank" id="profile-link"><p>GitHub</p></a>
+      <a href="https://twitter.com/SixxrRose" target="_blank"><p>Twitter</p></a>
+      <a href="mailto:gamestr5485@gmail.com" target="_blank"><p>Email</p></a>
+    </div>
+    </div>
+  </section>
+
+</body>
+
+<footer class="foot">
+  <p>This was made by James Church for his<a href="https://freecodecamp.org" target="_blank" class="foot-a">&copy;freecodecamp.org</a>certification on Responsive Web Design.</p>
+  <p>This will not be his final portfolio page</p>
+</footer
+
+  </div>
+
+</html>
