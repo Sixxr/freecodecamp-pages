@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="/css/survey-css.css">
+<body>
+  <header>
+    <h1 id="title">Give your opinion on Big Brain!</h1>
+    <p id="description">Fill out the form below to let us know your thoughts on one of the best, but short lived, characters of Futurama</p>
+  </header>
+
+  <form id="survey-form">
+
+    <label id="name-label" for="name"><p>Name: </p></label>
+    <input type="text" name="name" id="name" class="box" placeholder="What's your name?" required>
+
+    <label id="email-label" for="email"><p>Email: </p></label>
+    <input type="email" name="email" id="email" class="box" placeholder="What's your email?" required>
+
+    <label id="number-label" for="number"><p>Age: </p></label>
+    <input type="number" name="age" id="number" min="13" max="90" class="box" placeholder="How old are you?" required>
+
+    <br>
+
+    <p for="dropdown">How much of a fan or the Big Brain are you?</p>
+    <select name="fan" id="dropdown" class="box" required>
+      <option selected disabled value>Select One, Maybe?</option>
+      <option value="big">A Big Fan</option>
+      <option value="biggest">The Biggest Fan</option>
+      <option value="winning">The Big Brain Am Winning Again!</option>
+      <option value="not-giving">I'm Not Giving My Answer to a Machine</option>
+    </select>
+
+    <br>
+
+    <p for="first">Where did you see the Big Brain for the first time?</p>
+    <div class="radio">
+      <label><input name="first" value="original-run" type="radio" class="first" checked> Futurama's Original TV Run</input></label>
+    <br>
+      <label><input name="first" value="clip" type="radio" class="first"> Random Clip on the Internet</input></label>
+    <br>
+      <label><input name="first" value="streaming" type="radio" class="first"> Streaming Service (Hulu, Netflix, etc.)</input></label>
+    </div>
+
+    <br>
+
+    <div class="watch">
+    <p>How often do you watch Futurama?</p>
+    <p class="apply">(check all that apply)</p>
+    </div>
+
+    <div class="checkbox">
+    <label><input type="checkbox" name="how-often-watch" value="daily">Daily</input></label>
+    <label><input type="checkbox" name="how-often-watch" value="weekly">Weekly</input></label>
+    <label><input type="checkbox" name="how-often-watch" value="yearly">Yearly</input></label>
+    <br>
+    <label><input type="checkbox" name="how-often-watch" value="sleep">Before Sleeping</input></label>
+    <label><input type="checkbox" name="how-often-watch" value="chores">Doing Chores</input></label>
+    </div>
+
+    <br>
+
+    <p>Anything else you would like to say about Big Brain?</p>
+    <textarea id="comments" name="comment" placeholder="Share Thoughts from Your Big Brain" class="text"></textarea>
+
+    <br>
+
+    <button type="sumbit" id="submit" class="submit">Submit (to HypnoToad!)</button>
+  </form>
+</body>
+</html>
