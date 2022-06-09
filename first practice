@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Big Brain from Futurama</title>
+  </head>
+  <link rel="stylesheet" href="/css/practice-css.css">
+  <body>
+    <main>
+      <h1>I am the greetest!</h1>
+      <h2> And now I am leaving Earth for no raisin!</h2>
+      <a href="https://youtu.be/V3ZUhWuiQ20" target="_blank"><img src="https://i.ytimg.com/vi/uKMLQ_RgJ4A/hqdefault.jpg" alt="Big Brain from Futurama"></a>
+      <p class="click-here">↑ Click on Big Brain for his best scene! ↑</p>
+      <h3><a href="https://www.hulu.com/series/futurama-85bf4cc1-cd8b-4469-ad87-7289217a0b74" target="blank"> Here is Futurama's Hulu page</a> so you can enjoy all Futurama has to offer!</h3>
+      <br>
+      <article>
+        <p class="about"><a href="https://futurama.fandom.com/wiki/Big_Brain" target="blank"> From Futurama Wiki:</a> The Big Brain is the leader of the Brainspawn. He is a massive brain who lives in the Infosphere.<br>
+  The Big Brain conducted several attacks on other planets by rendering their population stupid and then destroying the planet. The Big Brain helps Fry travel back to the past to stop himself from being frozen. The Brainspawn's goal was to gather all of the universe's information into the Infosphere. He was most likely destroyed when Fry blew up the Infosphere.</p><br>
+      </article>
+      <div class="list">
+        <h4>Why I love this scene</h4>
+        <ol>
+          <li>The Big Brain am winning again!</li>
+          <hr>
+          <li>He is the greetest!</li>
+          <hr>
+          <li>Mwahahahaha</li>
+          <hr>
+          <li>Now he is leaving Earth for no raisin</li>
+        </ol>
+      </div>
+ <legend class="question">Why do you love this scene?</legend>
+      <div class="form">
+        <form>
+          <fieldset>
+            <input type="radio" id="The Big Brain" name="The Big Brain-Fry" value="Big Brain" checked>
+            <label for="The Big Brain">The Big Brain</label>
+            <input type="radio" id="Fry" name="The Big Brain-Fry" value="Fry">
+            <label for="Fry">Fry</label>
+            <input type="radio" id="Both" name="The Big Brain-Fry" value="Both">
+            <label for="Both">Both</label>
+          </fieldset>
+   <br>
+      <p>Other:</p> <input type="text" placeholder="I loves the Big Brain"><br>
+        <button type="submit"> Send thoughts</button>
+        </form>
+      </div>
+    </main>
+<br>
+<br>
+    <footer> &copy; Sixxr Rose</footer>
+  </body>
+</html>

@@ -1,0 +1,172 @@
+body {
+  background: linear-gradient(90deg, #F94EC0, #183C9E);
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  border-style: solid;
+  border-width: 25px 50px 25px 50px;
+  border-radius: 50px;
+  border-color: #ffffff;
+  margin: auto;
+  position: relative;
+}
+@media (max-width: 350px) {
+  body {
+    width: 100vw;
+    border-style: none;
+  }
+}
+h1 {
+  color: #B2ECEB;
+  background-color: hsl(341, 58%, 52%);
+  font-weight: 750;
+  text-transform: uppercase;
+  margin: auto;
+  position: relative;
+}
+@media (max-width: 350px) {
+  h1 {
+    font-weight: 500;
+    padding: 0 10px 0 10px;
+    width: 75vw;
+  }
+}
+h2 {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 350px) {
+  h2 {
+    padding: 0 10px 0 10px;
+  }
+}
+a {
+  color: #000000;
+}
+a:hover {
+  color: #ffffff;
+  }
+img:hover {
+  transform: scale(1.1) scaleX(-1);
+  animation-name: filter;
+  animation duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes filter {
+  100% {
+    filter: grayscale(45%);
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 75px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 25px;
+  position: relative;
+  transform: scale(0.95);
+}
+@media (max-width: 350px) {
+  img {
+    max-width: 50%;
+    border-width: 10px;
+    border-radius: 50px;
+  }
+}
+.click-here {
+  background-color: #808080;
+  margin: auto;
+  width: 20%;
+  position: relative;
+  animation-name: click;
+  animation-duration: 1.75s;
+  animation-iteration-count: infinite;
+}
+@keyframes click {
+   100% {
+     color: #ffffff;
+  }
+}
+@media (max-width: 350px) {
+  .click-here {
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  .click-here {
+    width: 60%;
+  }
+}
+@media (max-width: 350px) {
+  h3 {
+    padding: 0 10px 0 10px;
+  }
+}
+.about {
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  margin: auto;
+  width: 40%;
+  bottom: 15px;
+  position: relative;
+}
+@media (max-width: 350px) {
+  .about {
+    width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  .about {
+    width: 80%;
+  }
+}
+.list {
+  margin: auto;
+  width: 10%;
+  text-align: left;
+  border-style: solid;
+  border-color: red;
+  border-width: 5%;
+  border-radius: 15%;
+  padding: 2%;
+  box-shadow: 5px 5px 25px rgba(231, 84, 128, 0.75), 15px 15px 35px rgba(255, 0, 0, 0.75);
+}
+@media (max-width: 350px) {
+  .list {
+    width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  .list {
+    width: 70%;
+    line-height: 25px;
+  }
+}
+h4 {
+  text-align: center;
+}
+.question {
+  font-size: 25px;
+  padding: 25px 0 15px 0;
+}
+.form {
+  background-color: #808080;
+  margin: auto;
+  width: 20%;
+  border-radius: 50px;
+}
+@media (max-width: 350px) {
+ .form {
+  width: 80%;
+  border-radius: 30px;
+  }
+}
+@media (max-width: 800px) {
+ .form {
+  width: 70%;
+  }
+}
+fieldset {
+  border: 0;
+}
